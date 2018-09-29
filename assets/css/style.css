@@ -1,15 +1,36 @@
-#name {
-  margin-left: 50px;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  font-size: 24px;
-  font-family: 'Georgia', Times, serif;
+/* --------JUST THE NAV--------- */
+
+.navbar-custom {
+  background-color: #ffffff;
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
+#brand-name {
+  /* Positioning */
+  margin-left: 70px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+
+  /* Typography */
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, "Times New Roman", serif;
+
+  /* Display */
+  background-color: #4aaaa5;
+}
+
+#navbar-links {
+  padding-top: 5px;
+}
+
+/* --------NAVBAR END-------- */
+
+h1 {
+  font-family: 'Georgia', Times, serif;
+  color: #4aaaa5;
+  padding-top: 20px;
 }
 
 body {
@@ -18,8 +39,10 @@ body {
 }
 
 .wrapper {
-  min-height: 100%;
-  padding-bottom: 50px;
+  min-height: calc(100vh - 60px);
+  margin: 0 auto;
+  padding-bottom: 60px;
+  margin-top: 40px;
 }
 
 .connect-icon {
@@ -41,8 +64,23 @@ footer {
 
 #main {
   background-color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  line-height: 2;
+  font-size: 16px;
 }
 
-#navbar {
+
+
+.panel-body {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#connect {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 40px;
   background-color: #ffffff;
 }
