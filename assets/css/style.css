@@ -135,14 +135,9 @@ h3.connect-header {
   padding-bottom: 20px;
 }
 
-/* #connect {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 40px;
-  background-color: #ffffff;
-} */
-
 /* --------CONNECT WITH ME END-------- */
+
+
 
 /* --------FOOTER START-------- */
 
@@ -171,3 +166,43 @@ h3.connect-header {
 }
 
 /* --------FOOTER END-------- */
+
+
+
+/* --------PORTFOLIO PAGE START-------- */
+
+.portfolio-img {
+  /* Positioning */
+  height: 300px;
+
+  /* Border */
+  border: solid 1px #dbdbdb;
+}
+
+.portfolio-text {
+  /* Positioning */
+  position: relative;
+  text-align: center;
+  width: 298px;
+  height: 50px;
+  top: -75px;
+  left: 1px;
+
+  /* Color */
+  background-color: #4aaaa5;
+  color: #f2f2f2;
+
+  /* Text Positioning */
+  line-height: 50px;
+}
+
+.portfolio-container {
+  text-align: center;
+}
+
+.portfolio-img-container {
+  position: relative;
+  padding: 20px;
+}
+
+/* --------PORTFOLIO PAGE END-------- */
