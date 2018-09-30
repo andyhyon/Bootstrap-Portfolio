@@ -211,3 +211,60 @@ h3.connect-header {
 }
 
 /* --------PORTFOLIO PAGE END-------- */
+
+
+
+/* --------CONTACT PAGE START-------- */
+
+label {
+  /* Positioning */
+  display: block;
+  margin-bottom: 10px;
+
+  /* Typogrpahy */
+  color: #bbc;
+  font-size: 17px;
+}
+
+#form-name,
+#form-email,
+#form-message {
+  /* Positioning */
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-left: 10px;
+
+  /* Sizing */
+  height: 30px;
+  width: 98%;
+
+  /* Text-Input Positioning */
+  line-height: 30px;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+textarea {
+  border: solid 1px #dbdbdb;
+}
+
+#form-message {
+  height: 100px;
+}
+
+#form-submit {
+  /* Positioning */
+  margin-bottom: 20px;
+  padding: 10px 30px;
+
+  /* Color */
+  background-color: #4aaaa5;
+
+  /* Typography */
+  color: white;
+  font-size: 18px;
+}
+
+/* --------CONTACT PAGE END-------- */

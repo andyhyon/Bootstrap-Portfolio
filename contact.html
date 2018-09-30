@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Contact</title>
 
     <!-- Reset Stylesheet -->
     <link rel="stylsheet" type="text/css" href="./assets/css/reset.css">
@@ -44,6 +44,61 @@
         </div>
       </div>
     </nav>
+
+    <!-- Start of main content (e.g. about me, portfolio, contact form) -->
+    <div class="container">
+      <!-- Same row for main content and Connect Panel -->
+      <div class="row">
+        <!-- Div for Contact Form -->
+        <div class="col-md-8">
+          <article class="about-me-content">
+            <h1 class="about-me-header">
+              Contact
+            </h1>
+            <hr class="header-hr">
+            <!-- Form starts here -->
+            <form action="/my-handling-form-page" method="post">
+              <label for="name">Name</label>
+              <input type="text" id="form-name" name="contact_name" placeholder="John Smith">
+              <label for="email">Email</label>
+              <input type="text" id="form-email" name="contact_email" placeholder="example@gmail.com">
+
+              <label for="message">Message</label>
+              <textarea type="text" id="form-message" name="contact_message" wrap="soft"></textarea>
+
+              <input type="submit" id="form-submit" value="Submit">
+
+            </form>
+
+          </article>
+        </div>
+
+
+
+        <!-- Div for Connect with Me Panel -->
+        <div class="col-md-4">
+          <aside class="connect-content">
+            <h3 class="connect-header">
+              Connect with Me
+            </h3>
+            <!-- Div for Connect Icons -->
+            <div class="connect-icon-container">
+              <hr class="header-hr">
+              <a href="https://github.com/andyhyon"><img class="connect-icon" src="./assets/images/github.png"></a>
+              <a href="https://www.linkedin.com/in/andy-hyon-31b447b5/"><img class="connect-icon" src="./assets/images/linkedin.png"></a>
+              <a href="https://www.instagram.com/hyontography/"><img class="connect-icon" src="./assets/images/instagram.png"></a>
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="footer">
