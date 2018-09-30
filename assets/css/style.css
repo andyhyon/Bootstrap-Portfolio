@@ -173,7 +173,7 @@ h3.connect-header {
 
 .portfolio-img {
   /* Positioning */
-  width: 325px;
+  height: 325px;
 
   /* Border */
   border: solid 1px #dbdbdb;
@@ -204,7 +204,9 @@ h3.connect-header {
 
 .portfolio-img-container {
   /* position: relative; */
-  padding: 20px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
